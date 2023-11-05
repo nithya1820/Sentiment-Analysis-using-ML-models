@@ -12,3 +12,13 @@ The Sentiment Analysis using LLM has step-by-step processes involved that make i
 - Analysing Precision and accuracy
 - Analysing the research gap/limitations of the study you did
 - Studying future enhancements compared
+
+# About blog
+## Introduction
+In our study we mainly focus on the problems addressed below:
+•	This research paper addresses the pressing problem of developing effective and robust methods for sentiment analysis in Dravidian languages. 
+•	This challenge is becoming worse because of the unique characteristics of these languages, including morphology and script diversity. 
+•	We focus on the unique linguistic and cultural characteristics of these languages and the complexity of multimodal data. This is to improve content moderation and user experience within these linguistic communities.
+
+We went through several articles and found some common as well as different issues.
+Through my blogs, we will be analysing each paper I have reviewed and providing insights on the topic with referrals and tutorials wherever necessary.
