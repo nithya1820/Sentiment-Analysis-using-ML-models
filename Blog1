@@ -1,1 +1,15 @@
+In this research project, I have analysed 14 conference/journal papers about the topic "Sentiment Analysis using LLMs", all ranging from 2019-2023.
+The datasets are mostly code-mixed and include languages like Hindi, Tamil, Malayalam, and Japanese that are code-mixed with English
+Another type of dataset is code-switched.
+Code-switching and code-mixing are the two major problems addressed that are common to all papers.
+CODE-MIXING
+Code-mixing involves the intermingling or mixing of two or more languages or dialects within a sentence or discourse. 
+It occurs when a speaker alternates between two languages or incorporates elements from one language into another. 
+CODE-SWITCHING
+Code-switching is the practice of alternating between two or more languages or dialects in a conversation or discourse. 
+It involves a more distinct shift from one language to another, typically occurring at specific points in the conversation. 
+
+Almost all the studies reported the need to improve the pre-processing methods/model to reduce issues faced due to contextual ambiguity, code-mixing, 
+code-switching, classification bias, linguistic complexity etc, which are all issues that are mostly faced at the data annotation level which unfortunately 
+can only be done with human intervention.
 
