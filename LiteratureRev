@@ -1,0 +1,62 @@
+In this research project, I have analysed 14 conference/journal papers about the topic "Sentiment Analysis using LLMs", all ranging from 2019-2023.
+ABOUT DATASETS
+The datasets are mostly code-mixed and include languages like Hindi, Tamil, Malayalam, and Japanese that are code-mixed with English
+Another type of dataset is code-switched.
+Code-switching and code-mixing are the two major problems addressed that are common to all papers.
+CODE-MIXING
+Code-mixing involves the intermingling or mixing of two or more languages or dialects within a sentence or discourse. 
+It occurs when a speaker alternates between two languages or incorporates elements from one language into another. 
+CODE-SWITCHING
+Code-switching is the practice of alternating between two or more languages or dialects in a conversation or discourse. 
+It involves a more distinct shift from one language to another, typically occurring at specific points in the conversation. 
+
+Almost all the studies reported the need to improve the pre-processing methods/model to reduce issues faced due to contextual ambiguity, code-mixing, 
+code-switching, classification bias, linguistic complexity etc, which are all issues that are mostly faced at the data annotation level which unfortunately 
+can only be done with human intervention.
+
+FEATURE EXTRACTION METHODS
+Feature extraction basically helps users to derive meaningful/useful patterns and interpretations from datasets.
+Feature extraction involves selecting, combining, and transforming these characteristics into a reduced and more informative representation, 
+often improving the efficiency and effectiveness of subsequent analysis and learning algorithms.
+Some of the feature extraction methods used are:
+TF-IDF, Fast-Text embeddings, XLNet embeddings, tokenization, normalization etc.
+
+MODELS 
+Machine Learning Models for Sentiment Analysis:
+1. Naive Bayes:
+Naive Bayes classifiers are simple probabilistic models based on Bayes' theorem. 
+Although relatively basic, they are efficient for sentiment analysis due to their simplicity and ability to handle large datasets.
+
+2. Support Vector Machines (SVM):
+SVMs are powerful classifiers that work well for sentiment analysis tasks. 
+They aim to find a hyperplane that best separates the data points into different classes based on the features extracted from the text.
+
+3. Random Forests and Decision Trees:
+Ensemble methods like Random Forests, which consist of multiple decision trees, are useful in sentiment analysis due to their ability 
+to capture complex relationships within the data.
+
+4. Logistic regression and linear regression 
+They are fundamental statistical techniques used in various fields, especially in predictive modelling and data analysis. 
+Both methods are used to model the relationship between dependent and independent variables, but they have different applications and assumptions.
+
+Deep Learning Models for Sentiment Analysis:
+1. Recurrent Neural Networks (RNNs):
+RNNs, especially Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU) variants were initially popular for their sequential learning ability. 
+However, their limitations in capturing long-range dependencies led to the development of more advanced models.
+
+2. Convolutional Neural Networks (CNNs):
+CNNs are adept at learning spatial hierarchies in data. 
+In NLP, they've been utilized for sentence classification and sentiment analysis by applying convolutions over text sequences.
+
+Transformer Models for Sentiment Analysis:
+1. BERT (Bidirectional Encoder Representations from Transformers):
+BERT, a transformer-based model, revolutionized NLP by capturing bidirectional context. 
+Pre-trained on massive corpora, it's adept at capturing nuanced relationships in language, which greatly benefits sentiment analysis tasks.
+
+2. XLNet (Extra-Large Neural Network) is a state-of-the-art pre-trained language model developed by Google AI. It leverages the transformer architecture, 
+similar to BERT, but introduces a permutation language modelling (PLM) objective. 
+XLNet's key innovation lies in addressing the limitations of traditional autoregressive and autoencoding models by combining both approaches in its design.
+
+3.XLM-Roberta (Cross-lingual Language Model - Roberta) is an extension of the BERT model developed by Facebook AI. 
+It focuses on multilingual understanding and representation of language. The 'Roberta' model refers to an optimized version of BERT
+where it is trained by dynamically masking the language model with larger mini-batches, among other improvements.
